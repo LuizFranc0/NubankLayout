@@ -11,6 +11,7 @@
 		FC05F1D629ABEE44002086C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05F1D529ABEE44002086C0 /* ContentView.swift */; };
 		FC05F1D829ABEE46002086C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC05F1D729ABEE46002086C0 /* Assets.xcassets */; };
 		FC05F1DB29ABEE46002086C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC05F1DA29ABEE46002086C0 /* Preview Assets.xcassets */; };
+		FC05F1E329ABEEEC002086C0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05F1E229ABEEEC002086C0 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FC05F1D529ABEE44002086C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC05F1D729ABEE46002086C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC05F1DA29ABEE46002086C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC05F1E229ABEEEC002086C0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		FC05F1D229ABEE44002086C0 /* Nubank */ = {
 			isa = PBXGroup;
 			children = (
+				FC05F1E129ABEEB8002086C0 /* Header */,
 				FC05F1D329ABEE44002086C0 /* NubankApp.swift */,
 				FC05F1D529ABEE44002086C0 /* ContentView.swift */,
 				FC05F1D729ABEE46002086C0 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				FC05F1DA29ABEE46002086C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC05F1E129ABEEB8002086C0 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FC05F1E229ABEEEC002086C0 /* HeaderView.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC05F1D629ABEE44002086C0 /* ContentView.swift in Sources */,
+				FC05F1E329ABEEEC002086C0 /* HeaderView.swift in Sources */,
 				FC05F1D429ABEE44002086C0 /* NubankApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,23 @@ import SwiftUI
 
 struct BorrowView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading){
+            HStack{
+                Text("Empréstimos")
+                    .font(.title3)
+                    .fontWeight(.medium)
+                Spacer()
+                Image(systemName: "chevron.right")
+            } .padding()
+            
+            //Valor disponivel
+            VStack(alignment: .leading){
+                Text("Valor disponível de até")
+                Text("R$200.243,00")
+            } .foregroundColor(.gray)
+                .fontWeight(.medium)
+                .padding(.horizontal)
+        }
     }
 }
 

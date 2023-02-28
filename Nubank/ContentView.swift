@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  Nubank
-//
-//  Created by Luiz Franco on 26/02/23.
-//
 
 import SwiftUI
 
@@ -15,7 +9,7 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
+//        .padding()
     }
 }
 

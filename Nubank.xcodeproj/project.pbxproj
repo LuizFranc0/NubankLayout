@@ -12,6 +12,13 @@
 		FC05F1D829ABEE46002086C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC05F1D729ABEE46002086C0 /* Assets.xcassets */; };
 		FC05F1DB29ABEE46002086C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC05F1DA29ABEE46002086C0 /* Preview Assets.xcassets */; };
 		FC05F1E329ABEEEC002086C0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05F1E229ABEEEC002086C0 /* HeaderView.swift */; };
+		FC05F1E629ABF6FA002086C0 /* AcountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC05F1E529ABF6FA002086C0 /* AcountView.swift */; };
+		FC529F8929AD6929003F9FFD /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC529F8829AD6929003F9FFD /* teste.swift */; };
+		FCFE477D29AD7DD9008A2C67 /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE477C29AD7DD9008A2C67 /* CreditCardView.swift */; };
+		FCFE478029AD86C2008A2C67 /* PaymentAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE477F29AD86C2008A2C67 /* PaymentAssistantView.swift */; };
+		FCFE478329AD894F008A2C67 /* BorrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE478229AD894F008A2C67 /* BorrowView.swift */; };
+		FCFE478629AD8C12008A2C67 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE478529AD8C12008A2C67 /* TabBarView.swift */; };
+		FCFE478929AD8EB7008A2C67 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFE478829AD8EB7008A2C67 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,13 @@
 		FC05F1D729ABEE46002086C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC05F1DA29ABEE46002086C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC05F1E229ABEEEC002086C0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FC05F1E529ABF6FA002086C0 /* AcountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountView.swift; sourceTree = "<group>"; };
+		FC529F8829AD6929003F9FFD /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
+		FCFE477C29AD7DD9008A2C67 /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		FCFE477F29AD86C2008A2C67 /* PaymentAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAssistantView.swift; sourceTree = "<group>"; };
+		FCFE478229AD894F008A2C67 /* BorrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowView.swift; sourceTree = "<group>"; };
+		FCFE478529AD8C12008A2C67 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FCFE478829AD8EB7008A2C67 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +67,16 @@
 		FC05F1D229ABEE44002086C0 /* Nubank */ = {
 			isa = PBXGroup;
 			children = (
+				FCFE478729AD8E8B008A2C67 /* Main */,
+				FCFE478429AD8BF4008A2C67 /* TabBar */,
+				FCFE478129AD8926008A2C67 /* Borrow */,
+				FCFE477E29AD868F008A2C67 /* PaymentAssistant */,
+				FCFE477B29AD7DA0008A2C67 /* CreditCard */,
+				FC05F1E429ABF6DC002086C0 /* Acount */,
 				FC05F1E129ABEEB8002086C0 /* Header */,
 				FC05F1D329ABEE44002086C0 /* NubankApp.swift */,
 				FC05F1D529ABEE44002086C0 /* ContentView.swift */,
+				FC529F8829AD6929003F9FFD /* teste.swift */,
 				FC05F1D729ABEE46002086C0 /* Assets.xcassets */,
 				FC05F1D929ABEE46002086C0 /* Preview Content */,
 			);
@@ -76,6 +97,54 @@
 				FC05F1E229ABEEEC002086C0 /* HeaderView.swift */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		FC05F1E429ABF6DC002086C0 /* Acount */ = {
+			isa = PBXGroup;
+			children = (
+				FC05F1E529ABF6FA002086C0 /* AcountView.swift */,
+			);
+			path = Acount;
+			sourceTree = "<group>";
+		};
+		FCFE477B29AD7DA0008A2C67 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE477C29AD7DD9008A2C67 /* CreditCardView.swift */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		FCFE477E29AD868F008A2C67 /* PaymentAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE477F29AD86C2008A2C67 /* PaymentAssistantView.swift */,
+			);
+			path = PaymentAssistant;
+			sourceTree = "<group>";
+		};
+		FCFE478129AD8926008A2C67 /* Borrow */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE478229AD894F008A2C67 /* BorrowView.swift */,
+			);
+			path = Borrow;
+			sourceTree = "<group>";
+		};
+		FCFE478429AD8BF4008A2C67 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE478529AD8C12008A2C67 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FCFE478729AD8E8B008A2C67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FCFE478829AD8EB7008A2C67 /* MainView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +217,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFE478029AD86C2008A2C67 /* PaymentAssistantView.swift in Sources */,
+				FCFE478629AD8C12008A2C67 /* TabBarView.swift in Sources */,
+				FCFE478329AD894F008A2C67 /* BorrowView.swift in Sources */,
+				FCFE478929AD8EB7008A2C67 /* MainView.swift in Sources */,
+				FC05F1E629ABF6FA002086C0 /* AcountView.swift in Sources */,
 				FC05F1D629ABEE44002086C0 /* ContentView.swift in Sources */,
 				FC05F1E329ABEEEC002086C0 /* HeaderView.swift in Sources */,
 				FC05F1D429ABEE44002086C0 /* NubankApp.swift in Sources */,
+				FC529F8929AD6929003F9FFD /* teste.swift in Sources */,
+				FCFE477D29AD7DD9008A2C67 /* CreditCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
